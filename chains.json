@@ -1,14 +1,14 @@
 [
-	{
-		"chain": "bitcoin",
-		"name": "Bitcoin",
-		"logo": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1693322589",
-		"addressRegex": "^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$",
-		"explorer": {
-			"address": "https://blockchain.com/explorer/addresses/{address}",
-			"tx": "https://blockchain.com/explorer/transactions/{tx}"
-		}
-	},
+  {
+    "chain": "bitcoin",
+    "name": "Bitcoin",
+    "logo": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1693322589",
+    "addressRegex": "^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$",
+    "explorer": {
+      "address": "https://blockchain.com/explorer/addresses/{address}",
+      "tx": "https://blockchain.com/explorer/transactions/{tx}"
+    }
+  },
   {
     "chain": "ethereum",
     "name": "Ethereum",
@@ -19,14 +19,14 @@
       "tx": "https://etherscan.io/tx/{tx}"
     }
   },
-	{
-		"chain": "bnb",
-		"name": "BNB",
-		"logo": "https://assets.coingecko.com/coins/images/825/large/binance-coin.png?1693322589",
-		"addressRegex": "^0x[a-fA-F0-9]{40}$",
-		"explorer": {
-			"address": "https://bscscan.com/address/{address}",
-			"tx": "https://bscscan.com/tx/{tx}"
-		}
-	}
+  {
+    "chain": "bnb",
+    "name": "BNB",
+    "logo": "https://assets.coingecko.com/coins/images/825/large/binance-coin.png?1693322589",
+    "addressRegex": "^0x[a-fA-F0-9]{40}$",
+    "explorer": {
+      "address": "https://bscscan.com/address/{address}",
+      "tx": "https://bscscan.com/tx/{tx}"
+    }
+  }
 ]
